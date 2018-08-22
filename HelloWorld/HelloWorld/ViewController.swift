@@ -14,8 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        print("Hellow world")
-         print("Hellow Sam")
+        say("Hellow world")
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +22,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func say(_ text : String){
+        print(text)
+    }
 
 }
 
